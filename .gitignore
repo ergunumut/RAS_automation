@@ -1,0 +1,16 @@
+# Python ile ilgili dosyalar
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# HEC-RAS çıktıları ve geçici dosyaları
+*.tmp
+*.log
+*.output
+*.restart
+*.hdf
+
+# VS Code ayarları
+.vscode/
