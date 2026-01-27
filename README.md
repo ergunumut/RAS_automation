@@ -2,8 +2,6 @@
 
 This repository contains a Python-based automation toolkit for **HEC-RAS 6.x** using the `ras-commander` library. It is designed to streamline the process of extracting simulation results, analyzing hydraulic data, and visualizing model outcomes directly from HDF5 files.
 
-
-
 ## 🚀 Features
 - **Project Initialization:** Seamless connection to HEC-RAS project files (`.prj`).
 - **Automated Data Extraction:** Accessing plan details, simulation durations, and volume errors via `results_df`.
@@ -17,20 +15,17 @@ This repository contains a Python-based automation toolkit for **HEC-RAS 6.x** u
 - `venv/`: Virtual environment for dependency management.
 
 ## 🛠️ Installation & Setup
+
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/ergunumut/RAS_automation](https://github.com/ergunumut/RAS_automation)
-   cd your-repo-name
-
-
+   cd RAS_automation
 Set up the virtual environment:
 
 
 
 python -m venv venv
 .\venv\Scripts\activate
-
-
 Install dependencies:
 
 
